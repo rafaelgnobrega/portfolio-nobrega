@@ -27,4 +27,15 @@
 .footer .paragrafo .meunome {
   color: #1200FF;
   font-family: "Darker Grotesque";
+}
+
+@media screen and (max-width: 425px) {
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .paragrafo {
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=footer.module.css.map */

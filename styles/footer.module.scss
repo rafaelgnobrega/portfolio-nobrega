@@ -34,3 +34,14 @@
         }
     }
 }
+
+@media screen and ( max-width: 425px){
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .paragrafo {
+      font-size: 18px;
+    }
+  }
+}
