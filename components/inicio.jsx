@@ -6,12 +6,12 @@ export default function Navbar() {
         <div className={style.containerinicio} id='inicio'>
             <nav className={style.navbar}>
                 <div class={style.configlink}>
-                    <a class={style.link} href="#inicio" target="_self" rel="prev">INÍCIO</a>
+                    <a class={style.link} href="#inicio" target="_self" >INÍCIO</a>
                 </div>
                 <div class={style.param}>
-                    <div class={style.configlink}><a class={style.link} href="#skills" target="_self" rel="prev">SKILLS</a></div>
-                    <div class={style.configlink}><a class={style.link} href="#projetos" target="_self" rel="prev">PROJETOS</a></div>
-                    <div class={style.configlink}><a class={style.link} href="#contato" target="_self" rel="prev">CONTATO</a></div>
+                    <div class={style.configlink}><a class={style.link} href="#skills" target="_self">SKILLS</a></div>
+                    <div class={style.configlink}><a class={style.link} href="#projetos" target="_self">PROJETOS</a></div>
+                    <div class={style.configlink}><a class={style.link} href="#contato" target="_self">CONTATO</a></div>
                 </div>
             </nav>
             <div className={style.sobremim}>
