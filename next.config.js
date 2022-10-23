@@ -5,13 +5,11 @@ const nextConfig = {
   images: {
     loader: "akamai",
     path: "", 
-  },
-  project: {
-    ios: {},
-    android: {},
-  },
-  assets: ['./src/assets/fonts/', './src/assets/icons/'],
+  }
 }
 
 module.exports = nextConfig
 
+module.exports = {
+  
+};

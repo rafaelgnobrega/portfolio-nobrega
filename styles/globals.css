@@ -37,3 +37,19 @@ a {
 ::-webkit-scrollbar-thumb {
   background: #1200FF;
 }
+
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'Space Mono', monospace;
+  src: url('../fonts/SpaceMono-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Space Mono', monospace;
+  src: url('../fonts/SpaceMono-Bold.ttf');
+}
