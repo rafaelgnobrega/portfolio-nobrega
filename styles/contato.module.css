@@ -37,7 +37,8 @@
 .containercontato .contato form .inputContact {
   margin-bottom: 32px;
 }
-.containercontato .contato form .inputContact textarea:focus, .containercontato .contato form .inputContact input:focus {
+.containercontato .contato form .inputContact textarea:focus,
+.containercontato .contato form .inputContact input:focus {
   box-shadow: 0 0 0 0;
   outline: 0;
 }
@@ -101,5 +102,53 @@
     align-items: center;
     row-gap: 40px;
     margin-top: 105px;
+  }
+}
+@media screen and (max-width: 475px) {
+  .containercontato {
+    height: 70vh;
+  }
+  .containercontato .contato {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    margin-top: 100px;
+  }
+  .containercontato .contato h2 {
+    font-size: 46px;
+  }
+  .containercontato .contato form .inputContact {
+    width: 197px;
+    height: 28px;
+  }
+  .containercontato .contato form .inputContact input {
+    font-size: 20px;
+    width: 197px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .containercontato {
+    height: 90vh;
+  }
+  .containercontato .contato {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    margin-top: 100px;
+  }
+  .containercontato .contato h2 {
+    font-size: 46px;
+  }
+  .containercontato .contato form .inputContact {
+    width: 197px;
+    height: 28px;
+  }
+  .containercontato .contato form .inputContact input {
+    font-size: 20px;
+    width: 197px;
   }
 }/*# sourceMappingURL=contato.module.css.map */
