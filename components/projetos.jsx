@@ -18,7 +18,7 @@ export default function Projetos() {
     <div className={style.containerprojetos} id='projetos'>
         <Carousel activeIndex={index} onSelect={handleSelect} className={style.carrossel}>
           {/* ONEVENT */}
-          <Carousel.Item>
+          <Carousel.Item className={style.itemCarrossel}>
             <Image
               className={style.imagem}
               src={Onevent}

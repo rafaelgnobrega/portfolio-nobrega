@@ -48,4 +48,40 @@
   font-size: 1.5rem;
   padding-bottom: 100px;
   color: #ffffff;
+}
+
+@media screen and (max-width: 1440px) {
+  .containerprojetos .carrossel {
+    width: 100vw;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .containerprojetos .carrossel .espaco {
+    padding-bottom: 0px;
+  }
+  .containerprojetos .carrossel .espaco .titulos {
+    font-size: 28px;
+  }
+  .containerprojetos .carrossel .espaco .descricao {
+    font-size: 1rem;
+  }
+  .containerprojetos .carrossel .espaco .descricao .link {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .containerprojetos .carrossel .espaco {
+    padding-bottom: 0px;
+  }
+  .containerprojetos .carrossel .espaco .titulos {
+    font-size: 22px;
+  }
+  .containerprojetos .carrossel .espaco .descricao {
+    font-size: 12px;
+    padding-bottom: 30px;
+  }
+  .containerprojetos .carrossel .espaco .descricao .link {
+    font-size: 12px;
+    padding-bottom: 0px;
+  }
 }/*# sourceMappingURL=projeto.module.css.map */

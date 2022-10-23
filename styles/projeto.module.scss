@@ -58,6 +58,54 @@
 
 @media screen and (max-width: 1440px) {
     .containerprojetos {
-        .carrossel
+        .carrossel {
+            width: 100vw;
+        }
+    }
+}
+@media screen and (max-width: 1024px) {
+    .containerprojetos {
+        .carrossel {
+            .espaco {
+                padding-bottom: 0px;
+
+                .titulos {
+                    font-size: 28px;
+
+                }
+                
+                .descricao{
+                    font-size: 1rem;
+                    .link {
+                        font-size: 1rem;
+    
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 425px) {
+    .containerprojetos {
+        .carrossel {
+            .espaco {
+                padding-bottom: 0px;
+
+                .titulos {
+                    font-size: 22px;
+
+                }
+                
+                .descricao{
+                    font-size: 12px;
+                    padding-bottom: 30px;
+                    .link {
+                        font-size: 12px;
+                        padding-bottom: 0px;
+    
+                    }
+                }
+            }
+        }
     }
 }

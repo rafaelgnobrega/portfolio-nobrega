@@ -92,4 +92,14 @@
   height: 49.58px;
   border: 2px solid #1200FF;
   transition: ease-in 0.3s;
+}
+
+@media screen and (max-width: 770px) {
+  .containercontato .contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    margin-top: 105px;
+  }
 }/*# sourceMappingURL=contato.module.css.map */
