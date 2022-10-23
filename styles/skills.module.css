@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap");
+.containerskills {
+  background: #1200FF;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.containerskills .containertodasskills {
+  width: 90vw;
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+  margin-top: 60px;
+}
+.containerskills .containertodasskills .skills {
+  width: 100%;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34.5726px;
+  color: #FFFFFF;
+}
+.containerskills .containertodasskills .minhasskills {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.containerskills .containertodasskills .minhasskills .estilolink {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48.8526px;
+  line-height: 123.1%;
+  color: #FFFFFF;
+  margin: 0px;
+}
+.containerskills .containertodasskills .minhasskills .estilolink:hover {
+  color: #c5c5c5;
+}
+.containerskills .containertodasskills .decoracao {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Darker Grotesque";
+  font-style: bold;
+  font-weight: 800;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+.containerskills .containertodasskills .decoracao .alterafone {
+  font-family: "Space Mono";
+}
+.containerskills .imagem {
+  width: 100vw;
+}/*# sourceMappingURL=skills.module.css.map */

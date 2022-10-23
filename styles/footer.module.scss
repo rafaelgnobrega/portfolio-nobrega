@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap');
+
+.footer {
+    background-color: #111111;
+    width: 100%;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    font-family: 'Darker Grotesque';
+    font-size: 1.5rem;
+    color: #8d8d8d;
+
+
+    .paragrafo{
+        .meunome{
+            color: #1200FF;
+            font-family: 'Darker Grotesque';
+        }
+    }
+}

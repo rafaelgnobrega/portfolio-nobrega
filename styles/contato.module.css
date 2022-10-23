@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap");
+.containercontato {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+}
+.containercontato .contato {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 115px;
+       column-gap: 115px;
+  margin-top: 140px;
+  justify-content: center;
+}
+.containercontato .contato h2 {
+  color: rgb(0, 0, 0);
+  font-family: "Darker Grotesque";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 95.1878px;
+  line-height: 57.11%;
+  text-align: center;
+}
+.containercontato .contato form .inputContact {
+  margin-bottom: 32px;
+}
+.containercontato .contato form .inputContact textarea:focus, .containercontato .contato form .inputContact input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+.containercontato .contato form .inputContact input {
+  background-color: #ffffff;
+  width: 297px;
+  height: 36px;
+  font-family: "Darker Grotesque";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 29px;
+  line-height: 57.11%;
+  color: #000000;
+  border: none;
+  border-bottom: solid 2px #000000;
+  padding-bottom: 19px;
+  transition: ease-in 0.2s;
+}
+.containercontato .contato form .inputContact input:hover {
+  border-bottom: solid 2px #1200FF;
+  transition: ease-in 0.2s;
+}
+.containercontato .contato form .enviar {
+  padding-top: 36px;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+.containercontato .contato form .enviar button {
+  background-color: #ffffff;
+  color: #000000;
+  width: 134.3px;
+  height: 49.58px;
+  border: 2px solid #000000;
+  border-radius: 91.4px;
+  font-family: "Darker Grotesque" normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 57.11%;
+  text-align: center;
+  font-family: "Darker Grotesque", sans-serif;
+  transition: ease-in 0.3s;
+}
+.containercontato .contato form .enviar button:hover {
+  background-color: #1200FF;
+  color: #ffffff;
+  width: 134.3px;
+  height: 49.58px;
+  border: 2px solid #1200FF;
+  transition: ease-in 0.3s;
+}/*# sourceMappingURL=contato.module.css.map */

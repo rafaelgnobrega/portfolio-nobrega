@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap");
+.containerinicio {
+  background-image: url(../public/backgroundInicio.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.containerinicio .navbar {
+  width: 70%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.containerinicio .navbar .configlink {
+  width: 105px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+}
+.containerinicio .navbar .configlink .link {
+  text-decoration: none;
+  font-family: "Darker Grotesque";
+  color: #7C7C7C;
+  font-size: 20px;
+  font-weight: 600;
+  transition: ease-in 0.2s;
+}
+.containerinicio .navbar .configlink .link:hover {
+  color: #FFFFFF;
+}
+.containerinicio .navbar .configlink:hover {
+  border-bottom: 2px solid #1200FF;
+}
+.containerinicio .navbar .param {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 12px;
+       column-gap: 12px;
+}
+.containerinicio .navbar .param .configlink {
+  width: 105px;
+  height: 32px;
+}
+.containerinicio .navbar .param .configlink .link {
+  text-decoration: none;
+}
+.containerinicio .sobremim {
+  width: 80vw;
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 35px;
+}
+.containerinicio .sobremim .textos .textoGrande {
+  font-family: "Darker Grotesque";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 134.324px;
+  color: #ffffff;
+}
+.containerinicio .sobremim .textos .textoSobreMim {
+  width: 55%;
+  font-family: "Darker Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 43.7489px;
+  line-height: 111.5%;
+  text-align: justify;
+  color: #FFFFFF;
+}
+.containerinicio .sobremim .botao {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  width: 187px;
+  height: 54px;
+  border: 2px solid #FFFFFF;
+  border-radius: 653.945px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21.6635px;
+  color: #FFFFFF;
+  transition: all 0.3s;
+}
+.containerinicio .sobremim .botao:hover {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  width: 187px;
+  height: 54px;
+  border: 2px solid #ffffff;
+  border-radius: 653.945px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21.6635px;
+  color: #000000;
+  transition: all 0.3s ease;
+}/*# sourceMappingURL=inicio.module.css.map */
