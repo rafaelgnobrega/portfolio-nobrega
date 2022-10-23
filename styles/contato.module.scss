@@ -121,13 +121,15 @@
             align-items: center;
             row-gap: 40px;
             margin-top: 105px;
+            
         }
     }
 }
 
 @media screen and (max-width: 475px) {
     .containercontato {
-        height: 70vh;
+        height: 72vh;
+
         .contato {
             margin-top: 0px;
             display: flex;
@@ -157,7 +159,7 @@
 }
 @media screen and (max-width: 375px) {
     .containercontato {
-        height: 90vh;
+        height: 92vh;
         .contato {
             margin-top: 0px;
             display: flex;

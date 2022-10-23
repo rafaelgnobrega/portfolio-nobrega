@@ -106,7 +106,7 @@
 }
 @media screen and (max-width: 475px) {
   .containercontato {
-    height: 70vh;
+    height: 72vh;
   }
   .containercontato .contato {
     margin-top: 0px;
@@ -130,7 +130,7 @@
 }
 @media screen and (max-width: 375px) {
   .containercontato {
-    height: 90vh;
+    height: 92vh;
   }
   .containercontato .contato {
     margin-top: 0px;
