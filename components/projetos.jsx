@@ -38,7 +38,7 @@ export default function Projetos() {
             />
             <Carousel.Caption className={style.espaco}>
               <h2 className={style.titulos}>BlueBird</h2>
-              <p className={style.descricao}>A BlueBird é um projeto acadêmico que está em andamento, uma seguradora para veículos híbridos e elétricos. O desenvolvimento do  está sendo feito em Next.js com ajuda do Bootstrap.<a className={style.link} href="https://www.linkedin.com/feed/update/urn:li:activity:6987944103636307969/"> Visualizar pelo LinkedIn\&gt;</a></p>
+              <p className={style.descricao}>A BlueBird é um projeto acadêmico que está em andamento, uma seguradora para veículos híbridos e elétricos. O desenvolvimento do  está sendo feito em Next.js com ajuda do Bootstrap.<a className={style.link} href="https://www.linkedin.com/feed/update/urn:li:activity:6987944103636307969/" target='_blank'> Visualizar pelo LinkedIn\&gt;</a></p>
             </Carousel.Caption>
           </Carousel.Item>
           {/* TELA DE CADASTRO */}

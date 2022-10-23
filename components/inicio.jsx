@@ -1,5 +1,10 @@
 import style from '../styles/inicio.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import dynamic from 'next/dynamic';
+
+const FileViewer = dynamic(() => import('react-file-viewer'), {
+    ssr: false
+});
 
 export default function Navbar() {
     return (
@@ -19,7 +24,7 @@ export default function Navbar() {
                     <h1 className={style.textoGrande}>OLÁ,</h1>
                     <p className={style.textoSobreMim}>meu nome é Rafael Nóbrega, tenho 21 anos e sou estudante de Análise e Desenvolvimento de Sistemas na Universidade Paulista. Dedicado aos meus estudos, valorizo a produtividade e a qualidade  nos meus códigos.</p>
                 </div>
-                <a href="#" className={style.botao}> currículo </a>
+                <a href="/Curriculo.pdf" className={style.botao} target='_blank'>currículo</a>
             </div>
         </div>
     )

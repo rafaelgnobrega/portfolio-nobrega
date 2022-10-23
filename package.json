@@ -15,6 +15,7 @@
     "react-bootstrap": "^2.5.0",
     "react-bootstrap-carousel": "^2.0.2",
     "react-dom": "^18.2.0",
+    "react-file-viewer": "^0.5.0",
     "reactstrap": "^9.1.4"
   },
   "devDependencies": {
