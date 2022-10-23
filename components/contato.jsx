@@ -33,8 +33,6 @@ export default function Contato() {
                         <button type="submit">Send</button>
                         <p>or</p>
                         <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5513981542326" rel="opener"><Image src={Wpp} /></a>
-
-
                     </div>
                 </form>
             </div>
