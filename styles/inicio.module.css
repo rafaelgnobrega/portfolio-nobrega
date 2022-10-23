@@ -122,4 +122,128 @@
   font-size: 21.6635px;
   color: #000000;
   transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1600px) {
+  .containerinicio .sobremim .textos .textoGrande {
+    font-size: 110;
+  }
+  .containerinicio .sobremim .textos .textoSobreMim {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .containerinicio .sobremim .textos .textoGrande {
+    font-size: 86px;
+  }
+  .containerinicio .sobremim .textos .textoSobreMim {
+    width: 50%;
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .containerinicio .navbar {
+    width: 80%;
+    height: 80px;
+  }
+  .containerinicio .navbar .configlink .link {
+    font-size: 18px;
+  }
+  .containerinicio .navbar .configlink:hover {
+    border-bottom: 2px solid #1200FF;
+  }
+  .containerinicio .sobremim .textos .textoGrande {
+    font-size: 86px;
+  }
+  .containerinicio .sobremim .textos .textoSobreMim {
+    width: 60%;
+    font-size: 24px;
+  }
+  .containerinicio .sobremim .botao {
+    width: 160px;
+    height: 46px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 555px) {
+  .containerinicio .navbar {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 200px;
+    justify-content: center;
+  }
+  .containerinicio .navbar ali .configlink {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+  .containerinicio .navbar ali .configlink .link {
+    font-size: 14px;
+  }
+  .containerinicio .navbar .configlink:hover {
+    border-bottom: 2px solid #1200FF;
+  }
+  .containerinicio .navbar .param {
+    display: flex;
+    flex-direction: column;
+    -moz-column-gap: 0px;
+         column-gap: 0px;
+  }
+  .containerinicio .sobremim {
+    row-gap: 15px;
+  }
+  .containerinicio .sobremim .textos .textoGrande {
+    font-size: 74px;
+  }
+  .containerinicio .sobremim .textos .textoSobreMim {
+    width: 100%;
+    font-size: 24px;
+  }
+  .containerinicio .sobremim .botao {
+    width: 160px;
+    height: 46px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .containerinicio .navbar {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 200px;
+    justify-content: center;
+  }
+  .containerinicio .navbar ali .configlink {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+  .containerinicio .navbar ali .configlink .link {
+    font-size: 14px;
+  }
+  .containerinicio .navbar .configlink:hover {
+    border-bottom: 2px solid #1200FF;
+  }
+  .containerinicio .navbar .param {
+    display: flex;
+    flex-direction: column;
+    -moz-column-gap: 0px;
+         column-gap: 0px;
+  }
+  .containerinicio .sobremim {
+    row-gap: 15px;
+  }
+  .containerinicio .sobremim .textos .textoGrande {
+    font-size: 74px;
+  }
+  .containerinicio .sobremim .textos .textoSobreMim {
+    width: 100%;
+    font-size: 24px;
+  }
+  .containerinicio .sobremim .botao {
+    width: 160px;
+    height: 46px;
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=inicio.module.css.map */

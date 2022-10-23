@@ -144,3 +144,171 @@
         }
     }
 }
+
+@media screen and (max-width: 1600px) {
+    .containerinicio {
+        .sobremim {    
+            .textos {    
+                .textoGrande {
+                    font-size: 110;
+                }    
+                .textoSobreMim {
+                    font-size: 38px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .containerinicio {
+        .sobremim {    
+            .textos {    
+                .textoGrande {
+                    font-size: 86px;
+                }    
+                .textoSobreMim {
+                    width: 50%;
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .containerinicio {
+        .navbar {
+            width: 80%;
+            height: 80px;
+   
+            .configlink {
+                .link {
+                    font-size: 18px;
+                }
+            }
+    
+            .configlink:hover {
+                border-bottom: 2px solid #1200FF;
+            }
+        }
+
+        .sobremim {    
+            .textos {    
+                .textoGrande {
+                    font-size: 86px;
+                }    
+                .textoSobreMim {
+                    width: 60%;
+                    font-size: 24px;
+                }
+            }
+            .botao {
+                width: 160px;
+                height: 46px;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .containerinicio {
+        .navbar {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            height: 200px;
+            justify-content: center;
+            ali
+   
+            .configlink {
+                display: flex;
+                flex-direction: column;
+                width: 70%;
+                .link {
+                    font-size: 14px;
+                }
+            }
+    
+            .configlink:hover {
+                border-bottom: 2px solid #1200FF;
+            }
+
+            .param {
+                display: flex;
+                flex-direction: column;
+                column-gap: 0px;
+            }
+        }
+
+        .sobremim {    
+            row-gap: 15px;
+            .textos {    
+                .textoGrande {
+                    font-size: 74px;
+                }    
+                .textoSobreMim {
+                    width: 100%;
+                    font-size: 24px;
+                }
+            }
+            .botao {
+                width: 160px;
+                height: 46px;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .containerinicio {
+        .navbar {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            height: 200px;
+            justify-content: center;
+            ali
+   
+            .configlink {
+                display: flex;
+                flex-direction: column;
+                width: 70%;
+                .link {
+                    font-size: 14px;
+                }
+            }
+    
+            .configlink:hover {
+                border-bottom: 2px solid #1200FF;
+            }
+
+            .param {
+                display: flex;
+                flex-direction: column;
+                column-gap: 0px;
+            }
+        }
+
+        .sobremim {    
+            row-gap: 15px;
+            .textos {    
+                .textoGrande {
+                    font-size: 74px;
+                }    
+                .textoSobreMim {
+                    width: 100%;
+                    font-size: 24px;
+                }
+            }
+            .botao {
+                width: 160px;
+                height: 46px;
+                font-size: 16px;
+            }
+        }
+    }
+}
