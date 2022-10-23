@@ -16,7 +16,7 @@ export default function Projetos() {
 
   return (
     <div className={style.containerprojetos} id='projetos'>
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel activeIndex={index} onSelect={handleSelect} className={style.carrossel}>
           {/* ONEVENT */}
           <Carousel.Item>
             <Image

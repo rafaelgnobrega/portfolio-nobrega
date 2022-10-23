@@ -9,7 +9,7 @@ export default function Skills() {
             <div className={style.containertodasskills}>
                 <pre className={style.skills}>skills\&gt;</pre>
                 <div className={style.minhasskills}>
-                    <p className={style.estilolink}>Visual Studio</p>
+                    <p className={style.estilolink}>VS Code</p>
                     <p className={style.estilolink}>Git/GitHub</p>
                     <p className={style.estilolink}>Node.js</p>
                     <p className={style.estilolink}>JavaScript</p>
