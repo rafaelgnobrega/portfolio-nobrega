@@ -11,7 +11,7 @@ export default function Contato() {
             <Image src={FitaDois} />
             <div id="contato" className={style.contato}>
                 <h2>Contato</h2>
-                <form action="https://futormsubmit.co/rafelnobrega6@gmail.com" method="POST" >
+                <form action="https://formsubmit.co/rafaelnobrega6@gmail.com" method="POST" >
                     <div className={style.inputContact}>
                         <label for="name"></label>
                         <input type="text" name="name" id="name" placeholder="Nome" required/>
@@ -29,9 +29,12 @@ export default function Contato() {
                         <input className={style.inputContact} type="text" name="text" id="message" placeholder="Mensagem" required/>
                     </div>
                     <div className={style.enviar}>
+                        <input type="hidden" name="_captcha" value="false"/>
                         <button type="submit">Send</button>
                         <p>or</p>
                         <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5513981542326" rel="opener"><Image src={Wpp} /></a>
+
+
                     </div>
                 </form>
             </div>
